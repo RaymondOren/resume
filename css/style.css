@@ -1,0 +1,56 @@
+/* ---------------- CSS for HTML Tags ---------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* This code is to let the full section be seen when the anchor on the navbar is clicked
+    if this ode is removed, the navbar will cover some of the section (specifically the top part)*/
+
+html {
+    scroll-padding-top: 3.5rem;
+}
+
+body { 
+    background-color: #98f08c;
+}
+
+section {
+    height: 100vh;
+}
+
+
+
+
+/* ---------------- CSS for classes ---------------- */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.intro-contents {
+    height: 100%;
+}
+
+.intro-picture {
+    height: 35vh;
+    border-radius: 100%;
+}
+
+.navbar {
+    background-color: aqua;
+}
+
+.short-intro {
+    font-size: 2rem;
+    margin-left: 15vw;
+    width: 25vw;
+}
+/* ---------------- Test Class to know where the component is ---------------- */
+/* NOTE: Just add a "test" to the class of an element to know where it is */
+
+.test {
+    background-color: blueviolet;
+}
