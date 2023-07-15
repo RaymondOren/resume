@@ -4,12 +4,16 @@
     padding: 0;
 }
 
-/* This code is to let the full section be seen when the anchor on the navbar is clicked
-    if this ode is removed, the navbar will cover some of the section (specifically the top part)*/
+/* Start of the html correction for the navbar:
+
+This code is to let the full section be seen when the anchor on the navbar is clicked
+    if this code is removed, the navbar will cover some of the section (specifically the top part)*/
 
 html {
     scroll-padding-top: 3.5rem;
 }
+
+/* End of the html correction for the navbar */
 
 body { 
     background-color: #98f08c;
@@ -23,11 +27,11 @@ section {
 
 
 /* ---------------- CSS for classes ---------------- */
+
 .center-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .intro-contents {
@@ -41,6 +45,37 @@ section {
 
 .navbar {
     background-color: aqua;
+}
+
+.project-card {
+    width: 20vw;
+    height: 50vh;
+    padding: 1% 2%;
+    
+}
+
+.project-container {
+    display: grid;
+    justify-items: center;
+}
+
+.project-desc {
+    text-align: center;
+}
+
+.project-image {
+    display: flex;
+    justify-content: center;
+}
+
+.project-title {
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .short-intro {
