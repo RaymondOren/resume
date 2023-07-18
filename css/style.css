@@ -10,6 +10,11 @@
 
 This code is to let the full section be seen when the anchor on the navbar is clicked
     if this code is removed, the navbar will cover some of the section (specifically the top part)*/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 
 html {
     scroll-padding-top: 3.5rem;
@@ -30,6 +35,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon {
+    height: 2rem;
 }
 
 .intro-contents {
@@ -147,6 +156,10 @@ body {
     height: 100vh;
 }
 
+.section-contacts {
+    height: 55vh;
+}
+
 .section-title {
     text-align: center;
     font-size: 4rem;
@@ -160,6 +173,24 @@ body {
     width: 25vw;
 }
 
+.socials {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 22% auto auto;
+    column-gap: 20px;
+}
+
+.social-title {
+    font-size: 2rem;
+}
+
+.social-medias-details, .personal-details {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    column-gap: 10px;
+    row-gap: 20px;
+    font-size: 1.2rem;
+}
 /* ---------------- Test Class to know where the component is ---------------- */
 /* NOTE: Just add a "test" to the class of an element to know where it is */
 
